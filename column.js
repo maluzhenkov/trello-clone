@@ -91,7 +91,7 @@ const Column = {
     if (this === Column.dragged) {
       return;
     }
-    this.classList.add("under");
+    // this.classList.add("under");
   },
 
   dragover(event) {
