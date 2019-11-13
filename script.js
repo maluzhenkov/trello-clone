@@ -1,7 +1,7 @@
 document.querySelectorAll(".column").forEach(Column.process);
 document.querySelectorAll(".note").forEach(Note.process);
 
-/* Кнопка добавление колонки с карточками */
+/* Кнопка добавления колонки с карточками */
 document
   .querySelector("[data-action-addColumn]")
   .addEventListener("click", function(e) {
