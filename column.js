@@ -19,8 +19,6 @@ const Column = {
     });
 
     const headerElement = columnElement.querySelector(".caption");
-    headerElement.setAttribute("contenteditable", "true");
-    headerElement.focus();
 
     headerElement.addEventListener("dblclick", function(event) {
       headerElement.setAttribute("contenteditable", "true");

@@ -19,4 +19,7 @@ document
 
     document.querySelector(".columns").append(columnElement);
     Column.process(columnElement);
+    const headerElement = columnElement.querySelector(".caption");
+    headerElement.setAttribute("contenteditable", "true");
+    headerElement.focus();
   });
