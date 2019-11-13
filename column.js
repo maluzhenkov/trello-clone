@@ -105,6 +105,6 @@ const Column = {
     if (this === Column.dragged) {
       return;
     }
-    this.classList.remove("under");
+    // this.classList.remove("under");
   }
 };
